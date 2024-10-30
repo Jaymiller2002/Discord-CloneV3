@@ -1,0 +1,75 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #2f3136; /* Dark background */
+    color: #ffffff; /* White text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: -15px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem; /* Adjust as needed */
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 300px; /* Fixed width for form */
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px 0; /* Space between inputs */
+    border: 1px solid #202225; /* Input border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #40444b; /* Input background */
+    color: #ffffff; /* Input text color */
+    font-size: 1rem; /* Font size */
+  }
+  
+  input::placeholder {
+    color: #b9bbbe; /* Placeholder color */
+  }
+  
+  input:focus {
+    outline: none; /* Remove default outline */
+    border: 1px solid #7289da; /* Highlight border on focus */
+  }
+  
+  button {
+    padding: 10px;
+    margin-top: 10px; /* Space above button */
+    background-color: #7289da; /* Button background */
+    color: #ffffff; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 1rem; /* Font size */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  button:hover {
+    background-color: #5b6eae; /* Darker shade on hover */
+  }
+  
+  div {
+    text-align: center; /* Center align text */
+    margin-top: 15px; /* Space above text */
+  }
+  
+  span {
+    margin-left: 5px;
+    color: #7289da; /* Blue color for the link */
+    text-decoration: underline; /* Underline for link effect */
+    cursor: pointer; /* Pointer on hover */
+    transition: color 0.3s; /* Smooth transition */
+  }
+  
+  span:hover {
+    color: #5b6eae; /* Darker shade on hover */
+  }

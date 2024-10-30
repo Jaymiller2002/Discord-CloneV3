@@ -1,0 +1,126 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: flex-start; /* Align items at the start */
+    background-color: #2f3136; /* Dark background */
+    color: #ffffff; /* White text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    min-height: 100vh; /* Full height */
+    margin: -15px;
+  }
+  
+  .profile-title {
+    font-size: 2.5rem; /* Adjust as needed */
+    margin-bottom: 20px; /* Space below title */
+    text-align: center;
+  }
+  
+  .profile-info {
+    background-color: #40444b; /* Slightly lighter dark for profile info */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Inner padding */
+    margin-bottom: 20px; /* Space below profile */
+    width: 100%; /* Full width */
+    max-width: 500px; /* Max width for the profile box */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  }
+  
+  .profile-image {
+    width: 100px; /* Set a fixed width for profile image */
+    height: 100px; /* Set a fixed height for profile image */
+    border-radius: 50%; /* Circular profile image */
+    margin-bottom: 10px; /* Space below image */
+  }
+  
+  .friends-title, .messages-title {
+    font-size: 2rem; /* Size for section titles */
+    margin-top: 30px; /* Space above section */
+    margin-bottom: 10px; /* Space below section */
+  }
+  
+  .friends-list, .messages-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    width: 100%; /* Full width */
+    max-width: 500px; /* Max width for lists */
+  }
+  
+  .friend-item {
+    background-color: #40444b; /* Darker background for friend items */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Inner padding */
+    margin-bottom: 10px; /* Space between friends */
+    display: flex; /* Flex display for alignment */
+    justify-content: space-between; /* Space between friend name and button */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .remove-friend-button {
+    background-color: #d83d45; /* Red color for remove button */
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px 10px; /* Padding */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .remove-friend-button:hover {
+    background-color: #b71c1c; /* Darker red on hover */
+  }
+  
+  .add-friend-title {
+    font-size: 1.5rem; /* Size for add friend title */
+    margin-top: 20px; /* Space above title */
+    margin-bottom: 10px; /* Space below title */
+  }
+  
+  .add-friend-container {
+    display: flex; /* Flexbox for input and button */
+    justify-content: center; /* Center align */
+    margin-bottom: 20px; /* Space below add friend section */
+  }
+  
+  .friend-input {
+    padding: 10px; /* Padding inside input */
+    margin-right: 10px; /* Space between input and button */
+    border: 1px solid #202225; /* Input border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #40444b; /* Input background */
+    color: #ffffff; /* Input text color */
+    font-size: 1rem; /* Font size */
+    width: 250px; /* Fixed width for input */
+  }
+  
+  .add-friend-button {
+    padding: 10px; /* Padding inside button */
+    background-color: #7289da; /* Button background */
+    color: #ffffff; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .add-friend-button:hover {
+    background-color: #5b6eae; /* Darker shade on hover */
+  }
+  
+  .back-button {
+    margin-top: 30px; /* Space above button */
+    padding: 10px; /* Padding inside button */
+    background-color: #7713c3; /* Button background */
+    color: #ffffff; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .back-button:hover {
+    background-color: #773f93f4; /* Darker shade on hover */
+  }
+  
